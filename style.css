@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-image: url(download3.jpeg);
+  background-color: #121168;
+  font-family: Arial, sans-serif;
+
+  
+}
+.body image{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  background-color: black;
+  color: white;
+   /* justify-content: center; */
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+   /* spacing between logo and text */
+}
+
+.brand img {
+  height: 40px; /* Adjust as needed */
+}
+
+
+nav ul li{
+    padding:0 12px;
+
+
+}
+
+.brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container {
+  min-height: 75vh;
+  /* padding: 20px; */
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 80px;
+  background-color: rgb(15, 0, 0);
+  color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+#myprogressbar {
+  width: 80vw;
+  height: 6px;
+  cursor: pointer;
+  color: rgb(246, 248, 244);
+}
+
+.icons i {
+  margin: 0 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(5, 43, 211);
+}
+.container{
+   min-height: 75vh;
+   background-color: black;
+   color: azure;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   background-image: url("bg2.jpeg");
+   resize: inherit;
+   padding: 34PX;
+}
+.SONGITEM{
+  height: 50PX;
+  display: flex;
+  padding-left: 10PX;
+  background-color:#507bda9c;
+  width: 100%;
+  color: rgb(248, 243, 243);
+  margin: 12PX 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34PX;
+  CURSOR: POINTER;
+}
+.SONGITEM IMG{
+
+  width: 45PX;
+  margin: 0 PX;
+  border-radius: 17PX;
+}
+.SONGLISTCONTAINER{
+  margin-top: 44PX;
+}
